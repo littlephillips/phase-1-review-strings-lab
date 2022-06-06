@@ -3,9 +3,8 @@
 
  const welcomeMessage = `${currentUser}, Welcome to Flatbook, !`;
  
- currentUser = `GRACE HOPPER`
- const excitedWelcomeMessage = `WELCOME TO FLATBOOK, ${currentUser}!`;
 
- currentUser = "Grace Hopper";
+ const excitedWelcomeMessage = `WELCOME TO FLATBOOK, ${currentUser.toUpperCase()}!`;
+
 
  const shortGreeting = `Welcome, ${currentUser.slice(0, 1)}!`;
